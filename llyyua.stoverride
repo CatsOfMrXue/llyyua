@@ -1,0 +1,10 @@
+name: llyyua
+desc: llyyua
+
+http:
+  header-rewrite:
+    - ^https://.*\.xxlb\.net/Videos/\d+/stream\?MediaSourceId=[0-9a-zA-Z]+&Static=true request-replace User-Agent Yabmy
+    - ^http://poly\.emby\.moe request-replace User-Agent Yamby
+  mitm:
+    - poly.emby.hk:*
+    - *.xxlb.net:*
