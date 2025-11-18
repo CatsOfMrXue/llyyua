@@ -6,5 +6,5 @@ http:
     - ^https://.*\.xxlb\.net/Videos/\d+/stream\?MediaSourceId=[0-9a-zA-Z]+&Static=true request-replace User-Agent Infuse-Direct/8.3.1
     - ^http://poly\.emby\.moe request-replace User-Agent Infuse-Direct/8.3.1
   mitm:
-    - 'poly.emby.hk:*'
+    - poly.emby.moe:*
     - '*.xxlb.net:*'
